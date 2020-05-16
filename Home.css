@@ -1,0 +1,205 @@
+body {
+  font-family: "Lato", sans-serif;
+  overflow: auto;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow: auto;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  margin-bottom: 2px;
+  word-spacing: 5px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin-top:-6px; 
+
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+ 
+  cursor: pointer;
+  
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin: 0px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  color: #fff;
+  background-color: rgb(77, 77, 77);
+  opacity: 0.9;
+}
+button
+{
+  background-color: rgb(77, 77, 77);
+  opacity: 0.9;
+}
+i
+{
+  color:white;
+}
+#bar
+{
+  border: 1px solid white;
+  height: 50px;
+  width: 0px;
+  position: absolute;
+  top: 11px;
+  right: 200px;
+}
+#mail
+{
+  position: absolute;
+  right: 320px;
+  top: 20px;
+}
+#group
+{
+  position: absolute;
+  right: 250px;
+  top: 20px;
+}
+p
+{
+  margin-left: 30px;
+  margin-top: auto;
+  
+}
+hr
+{
+  width: 80%;
+}
+#main-control
+{
+  position: absolute;
+  top: 90px;  
+}
+#block
+{
+  position: relative;
+}
+#block1
+{
+  position: absolute;
+  top: 0px;
+  right: -3px;
+  width: 30.33%;
+  display: inline;
+}
+#block2
+{
+margin-top: -329px;
+
+}
+.block1
+{
+  border-radius: 15px;
+  border:2px solid black; 
+  height: 320px;
+  width: 30.33%;
+  margin: 0px 5px 5px 10px;
+}
+#color
+{
+  color: black;
+  padding: 10px;
+}
+#text
+{
+  color: black;
+  margin-left: 12px;
+}
+#color-1
+{ 
+  margin-top:-10px ;
+}
+#horizontal
+{
+  width:75%;
+  margin-left: 12px;
+}
+#bold
+{
+  font-size: 13px;
+  color: black;
+  
+}
+.horizontal
+{
+  width: 30%;
+  margin-left: 12px;
+}
+.Select
+{
+  width: 40%;
+  margin:10px;
+ 
+  background-color: white;
+  height: 12%;
+}
+
+.Reject
+{
+  width: 40%;
+  margin: 10px;
+  background-color: white;
+  height: 12%;
+}
+#color-2
+{
+color: black;
+margin: 10px;
+margin-left: -60px;
+}
+div #user
+{
+position: absolute;
+top: 10px;
+right: 10px;
+}
